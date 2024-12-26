@@ -1,0 +1,48 @@
+go mod init goalng
+go get -u github.com/gorilla/mux
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/mysql.
+go get github.com/dgrijalva/jwt-go
+go get github.com/golang-jwt/jwt/v4
+go get golang.org/x/crypto/bcrypt
+go get github.com/joho/godotenv
+go get github.com/cloudinary/cloudinary-go/v2
+go install gorm.io/driver/mysql@latest
+go get -u gorm.io/driver/mysql.
+go get -u github.com/valyala/fasthttp
+go build
+go build -o main
+vercel --prod --debug
+go mod tidy
+
+go build -o CrudAPI.exe
+
+
+run....................................
+
+go build -o CrudAPI.exe -buildvcs=false
+go build -o CrudAPI.exe -buildvcs=false
+.\CrudAPI.exe
+.................................................
+
+
+
+
+
+
+Problem Mysql Sever Then
+
+go mod init myproject
+go get -u gorm.io/driver/mysql
+go get -u gorm.io/gorm
+go build -buildvcs=false
+go build -o CrudAPI.exe -buildvcs=false
+./CrudAPI.exe
+go build -o CrudAPI.exe
+.\CrudAPI.exe
+CrudAPI.exe
+go build -o CrudAPI.exe
+
+
+    Thank you
+import "golang.org/x/crypto/bcrypt"
